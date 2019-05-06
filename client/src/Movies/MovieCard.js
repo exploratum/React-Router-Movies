@@ -1,7 +1,6 @@
 import React from 'react';
 
 const MovieCard = props => {
-  console.log(`PROPERTIES IN MOVIECARD: ${props.saveMovie}`);
   const { title, director, metascore, stars } = props.movie;
   return (
     <div className="save-wrapper">
